@@ -1,167 +1,85 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>당;연(聯)</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Noto Sans KR', sans-serif;
-      background-color: #0080ff;
-      color: white;
-      text-align: center;
-    }
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>당;연(聯)</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>당;연(聯)</h1>
+      <p class="subtitle">
+        성인 1형당뇨인들을 연잇는<br />
+        (사)한국1형당뇨병환우회의 성인모임
+      </p>
 
-    .container {
-      padding: 30px 20px;
-      max-width: 800px;
-      margin: 0 auto;
-    }
-
-    h1 {
-      margin: 10px 0;
-      font-size: 28px;
-    }
-
-    p.subtitle {
-      font-size: 16px;
-      line-height: 1.5;
-      color: #e0e0e0;
-    }
-
-    .icon-row {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 10px;
-      margin: 20px 0;
-    }
-
-    .icon-row a {
-      color: white;
-      font-size: 24px;
-      text-decoration: none;
-      border: none; /* 테두리 제거 */
-      border-radius: 10px;
-      padding: 10px 15px;
-      outline: none;
-    }
-
-    .icon-row a:focus,
-    .icon-row a:active,
-    .icon-row a:hover {
-      outline: none;
-      border: none;
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-      gap: 20px;
-      margin: 30px 0;
-    }
-
-    .grid-item {
-      background-color: white;
-      color: #333;
-      border-radius: 15px;
-      font-weight: bold;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    .grid-item img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 10px;
-      border: none;  /* 이미지 테두리 제거 */
-      outline: none;
-    }
-
-    a img {
-      border: none;
-      outline: none;
-    }
-
-    a:focus, a:active, a:hover {
-      outline: none;
-      border: none;
-    }
-
-    .footer-link {
-      background-color: white;
-      color: #333;
-      padding: 15px;
-      margin: 20px 0;
-      border-radius: 10px;
-      font-weight: bold;
-    }
-
-    .footer-link a {
-      color: #333;
-      text-decoration: none;
-      outline: none;
-    }
-
-    .footer-link a:focus,
-    .footer-link a:active,
-    .footer-link a:hover {
-      outline: none;
-      border: none;
-    }
-
-    .credit {
-      font-size: 12px;
-      margin-top: 20px;
-      opacity: 0.6;
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <h1>당;연(聯)</h1>
-    <p class="subtitle">
-      성인 1형당뇨인들을 연잇는<br />
-      (사)한국1형당뇨병환우회의 성인모임
-    </p>
-
-    <div class="icon-row">
-      <a href="#">🌐</a>
-      <a href="#">▶️</a>
-      <a href="#">📷</a>
-      <a href="#">✉️</a>
-    </div>
-
-    <div class="grid">
-      <div class="grid-item">
-        <a href="https://concierge.soldoc.co.kr/barocarenew/sub5?utm_source=naver&utm_medium=insulinmap_2506&utm_campaign=insulinmap_2506&utm_content=insulinmap_2506&utm_term=insulinmap_2506" target="_blank" rel="noopener noreferrer">
-          <img src="./resources/image/image_map.png" alt="인슐린 약국지도" />
+      <div class="icon-row">
+        <a href="http://www.kst1d.org/">
+          <img src="./assets/icons/ic_web.png" alt="web" />
+        </a>
+        <a href="https://www.youtube.com/channel/UCyO4LR8XD-UzCdsjAWRGlNQ?view_as=subscriber">
+          <img src="./assets/icons/ic_youtube.png" alt="youtube" />
+        </a>
+        <a href="https://www.instagram.com/kst1diabetes/">
+          <img src="./assets/icons/ic_instagram.png" alt="instagram" />
+        </a>
+        <a href="https://blog.naver.com/prologue/PrologueList.naver?blogId=kst1diabetes">
+          <img src="./assets/icons/ic_blog.png" alt="blog" />
         </a>
       </div>
-      <div class="grid-item">
-        <a href="https://cafe.naver.com/t1d" target="_blank" rel="noopener noreferrer">
-          <img src="./resources/image/image_logo2.png" alt="슈거트리 카페" />
-        </a>
+
+      <div class="grid">
+        <div class="grid-item">
+          <a
+            href="https://concierge.soldoc.co.kr/barocarenew/sub5?utm_source=naver&utm_medium=insulinmap_2506&utm_campaign=insulinmap_2506&utm_content=insulinmap_2506&utm_term=insulinmap_2506"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="./images/image_map.png" alt="인슐린 약국지도" />
+          </a>
+        </div>
+        <div class="grid-item">
+          <a
+            href="https://cafe.naver.com/t1d"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="./images/image_logo2.png" alt="슈거트리 카페" />
+          </a>
+        </div>
+        <div class="grid-item">
+          <a
+            href="https://secure.donus.org/kst1d/pay/step1/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="./images/image_donation.png" alt="후원신청" />
+          </a>
+        </div>
+        <div class="grid-item">
+          <a
+            href="http://www.kst1d.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="./images/image_logo.png" alt="환우회 홈페이지" />
+          </a>
+        </div>
       </div>
-      <div class="grid-item">
-        <a href="https://secure.donus.org/kst1d/pay/step1/" target="_blank" rel="noopener noreferrer">
-          <img src="./resources/image/image_donation.png" alt="후원신청" />
-        </a>
-      </div>
-      <div class="grid-item">
-        <a href="http://www.kst1d.org/" target="_blank" rel="noopener noreferrer">
-          <img src="./resources/image/image_logo.png" alt="환우회 홈페이지" />
+
+      <div class="footer-link">
+        <a
+          href="https://youtu.be/DZBXLayBek4?si=rtrAerObSBMAdYfT"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          저혈당 올바른 대처법(유튜브)
         </a>
       </div>
     </div>
-
-    <div class="footer-link">
-      <a href="https://www.youtube.com/watch?si=g-W6fsQGcuqhuKGz&v=GuzOK6KLd08&feature=youtu.be" target="_blank" rel="noopener noreferrer">
-        저혈당 올바른 대처법(유튜브)
-      </a>
-    </div>
-  </div>
-</body>
+    <small class="icon-credit">
+      Icons by <a href="https://www.flaticon.com/">Flaticon</a>
+    </small>
+  </body>
 </html>
