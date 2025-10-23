@@ -1,10 +1,17 @@
+html, body {
+  height: 100%;
+}
+
 body {
   margin: 0;
   font-family: "Noto Sans KR", sans-serif;
   background-image: url('../images/image_bg_portrait.png');
-  background-size: 100% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
+
+  background-size: cover;        /* 화면을 꽉 채우되 비율 유지 */
+  background-position: center;   /* 가운데 정렬 */
+  background-repeat: no-repeat;  /* 반복 방지 */
+  background-attachment: fixed;  /* (선택) 스크롤시 고정 느낌 */
+
   color: white;
   text-align: center;
 }
