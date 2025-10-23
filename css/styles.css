@@ -64,15 +64,6 @@ p.subtitle {
     filter: invert(1) brightness(2);
 }
 
-.icon-credit {
-  font-family: "Noto Sans KR", sans-serif;
-  font-size: 11px;
-  color: white;
-  text-align: center;
-  display: block;
-  margin-top: 20px;
-}
-
 .icon-row a:focus,
 .icon-row a:active,
 .icon-row a:hover {
@@ -115,7 +106,7 @@ a:hover {
   border: none;
 }
 
-.footer-link {
+.youtube-link {
   background-color: white;
   color: #333;
   padding: 15px;
@@ -124,21 +115,30 @@ a:hover {
   font-weight: bold;
 }
 
-.footer-link a {
+.youtube-link a {
   color: #333;
   text-decoration: none;
   outline: none;
 }
 
-.footer-link a:focus,
-.footer-link a:active,
-.footer-link a:hover {
-  outline: none;
-  border: none;
+.icon-credit {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 11px;
+  color: white;
+  text-align: center;
+  display: block;
+  margin-top: 20px;
 }
 
-.credit {
-  font-size: 12px;
-  margin-top: 20px;
-  opacity: 0.6;
+.icon-credit a {
+  color: white;
+  text-decoration: underline;
+  outline: none;
+}
+
+.youtube-link a:focus,
+.youtube-link a:active,
+.youtube-link a:hover {
+  outline: none;
+  border: none;
 }
