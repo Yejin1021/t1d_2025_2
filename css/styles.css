@@ -4,7 +4,7 @@ html, body {
 
 body {
   margin: 0;
-  font-family: "Noto Sans KR", sans-serif;
+  font-family: "Noto Sans KR";
   background-image: url('../images/image_bg_portrait.png');
 
   background-size: cover;        /* 화면을 꽉 채우되 비율 유지 */
@@ -122,7 +122,7 @@ a:hover {
 }
 
 .icon-credit {
-  font-family: "Noto Sans KR", sans-serif;
+  font-family: "Noto Sans KR";
   font-size: 11px;
   color: white;
   text-align: center;
